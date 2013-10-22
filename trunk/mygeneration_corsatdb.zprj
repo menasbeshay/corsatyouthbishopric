@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="New Project" description="New Zeus Project file" defaultSettingsOverride="False">
+  <objects>
+    <obj name="BLL" uid="545956e4-940d-450e-af5f-dfdf8dbdc3b4" path="C:\Program Files (x86)\MyGeneration13\Templates\C#\CSharp_SQL_dOOdads_ConcreteClass.vbgen">
+      <items>
+        <item name="__dbConnectionString" type="System.String" val="Provider=SQLOLEDB.1;Persist Security Info=False;Data Source=mena-pc;Initial Catalog=Health_Final_2;User ID=sa;Password=sqladmin" />
+        <item name="__dbDriver" type="System.String" val="SQL" />
+        <item name="__dbLanguageMappingFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\Languages.xml" />
+        <item name="__dbTarget" type="System.String" val="SqlClient" />
+        <item name="__dbTargetMappingFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\DbTargets.xml" />
+        <item name="__defaultOutputPath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\GeneratedCode\" />
+        <item name="__defaultTemplatePath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Templates\" />
+        <item name="__domainOverride" type="System.Boolean" val="True" />
+        <item name="__language" type="System.String" val="C#" />
+        <item name="__userMetaDataFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\UserMetaData.xml" />
+        <item name="__version" type="System.String" val="1.3.0.3" />
+        <item name="btnPath" type="System.String" val="" />
+        <item name="cmbDatabase" type="System.String" val="Corsatwebsite_db" />
+        <item name="dbConnectionString" type="System.Boolean" val="True" />
+        <item name="dbDriver" type="System.String" val="SQL" />
+        <item name="defaultOutputPath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\GeneratedCode\" />
+        <item name="defaultTemplatePath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Templates\" />
+        <item name="lstTables" type="System.Collections.ArrayList" val="System.String|H|TimePlan;" />
+        <item name="txtNamespace" type="System.String" val="Corsat.BLL" />
+        <item name="txtPath" type="System.String" val="D:\5edma\Corsat_Web_Project\New_web_Project\WebApplication\BLL" />
+      </items>
+    </obj>
+    <obj name="DAL" uid="1b2935a3-16f8-45ed-b50b-5cc6d1855428" path="C:\Program Files (x86)\MyGeneration13\Templates\C#\CSharp_SQL_dOOdads_BusinessEntity.vbgen">
+      <items>
+        <item name="__dbConnectionString" type="System.String" val="Provider=SQLOLEDB.1;Persist Security Info=False;Data Source=mena-pc;Initial Catalog=Health_Final_2;User ID=sa;Password=sqladmin" />
+        <item name="__dbDriver" type="System.String" val="SQL" />
+        <item name="__dbLanguageMappingFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\Languages.xml" />
+        <item name="__dbTarget" type="System.String" val="SqlClient" />
+        <item name="__dbTargetMappingFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\DbTargets.xml" />
+        <item name="__defaultOutputPath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\GeneratedCode\" />
+        <item name="__defaultTemplatePath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Templates\" />
+        <item name="__domainOverride" type="System.Boolean" val="True" />
+        <item name="__language" type="System.String" val="C#" />
+        <item name="__userMetaDataFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\UserMetaData.xml" />
+        <item name="__version" type="System.String" val="1.3.0.3" />
+        <item name="btnPath" type="System.String" val="" />
+        <item name="cmbDatabase" type="System.String" val="Corsatwebsite_db" />
+        <item name="dbConnectionString" type="System.Boolean" val="True" />
+        <item name="dbDriver" type="System.String" val="SQL" />
+        <item name="defaultOutputPath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\GeneratedCode\" />
+        <item name="defaultTemplatePath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Templates\" />
+        <item name="lstTables" type="System.Collections.ArrayList" val="System.String|H|TimePlan;" />
+        <item name="prefix" type="System.Boolean" val="False" />
+        <item name="trimName" type="System.Boolean" val="False" />
+        <item name="txtNamespace" type="System.String" val="Corsat.DAL" />
+        <item name="txtPath" type="System.String" val="D:\5edma\Corsat_Web_Project\New_web_Project\WebApplication\DAL" />
+      </items>
+    </obj>
+    <obj name="Sps" uid="10998336-5037-496c-a163-050060de065a" path="C:\Program Files (x86)\MyGeneration13\Templates\Microsoft_SQL_Server\SQL_StoredProcs.vbgen">
+      <items>
+        <item name="__dbConnectionString" type="System.String" val="Provider=SQLOLEDB.1;Persist Security Info=False;Data Source=mena-pc;Initial Catalog=Health_Final_2;User ID=sa;Password=sqladmin" />
+        <item name="__dbDriver" type="System.String" val="SQL" />
+        <item name="__dbLanguageMappingFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\Languages.xml" />
+        <item name="__dbTarget" type="System.String" val="SqlClient" />
+        <item name="__dbTargetMappingFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\DbTargets.xml" />
+        <item name="__defaultOutputPath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\GeneratedCode\" />
+        <item name="__defaultTemplatePath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Templates\" />
+        <item name="__domainOverride" type="System.Boolean" val="True" />
+        <item name="__language" type="System.String" val="C#" />
+        <item name="__userMetaDataFileName" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Settings\UserMetaData.xml" />
+        <item name="__version" type="System.String" val="1.3.0.3" />
+        <item name="btnPath" type="System.String" val="" />
+        <item name="chk2005" type="System.Boolean" val="False" />
+        <item name="chkAlter" type="System.Boolean" val="False" />
+        <item name="chkGenDoc" type="System.Boolean" val="True" />
+        <item name="cmbDatabase" type="System.String" val="Corsatwebsite_db" />
+        <item name="dbConnectionString" type="System.Boolean" val="True" />
+        <item name="dbDriver" type="System.String" val="SQL" />
+        <item name="defaultOutputPath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\GeneratedCode\" />
+        <item name="defaultTemplatePath" type="System.String" val="C:\Program Files (x86)\MyGeneration13\Templates\" />
+        <item name="lstTables" type="System.Collections.ArrayList" val="System.String|H|City;System.String|H|Country;System.String|H|Course;System.String|H|Course_Data;System.String|H|Course_Data_DataType;System.String|H|News;System.String|H|News_Tags;System.String|H|Page;System.String|H|TimePlan;System.String|H|UserCourse;System.String|H|UserData;System.String|H|Video;System.String|H|Video_Tags;" />
+        <item name="txtPath" type="System.String" val="D:\5edma\Corsat_Web_Project\New_web_Project\scripts" />
+      </items>
+    </obj>
+  </objects>
+</project>

@@ -1,0 +1,70 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Site.Master" AutoEventWireup="true" CodeBehind="testGUI.aspx.cs" Inherits="WebApplication.testGUI" %>
+<%@ Register src="UserControls/NewsSlider.ascx" tagname="NewsSlider" tagprefix="uc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<!-- Slider -->
+    <uc1:NewsSlider ID="uiNewsSlider" runat="server" />
+    
+    <!-- End of Slider -->
+<section class="content">
+		<blockquote class="quote">
+			<p>We tested it and so far there is probably no other template, which have so much customization options included.</p>
+			<p class="signature">- <span>Tom Sterling</span> / ThemeMotive Inc.</p>
+		</blockquote>
+		<section class="columns hp-latest2">
+			<article class="col2">
+				<a href="#"><img src="images/temp/07.jpg" alt="" class="post-thumbnail"></a>
+				<h2><a href="#">Most customizable theme ever has released</a></h2>
+				<p>Thanks to MultiPurpose you can now build websites with the lowest cost possible. MultiPurpose's goal is to help you build unique and modern websites fast, easy and with the lowest cost possible. With MultiPurpose you can create many unique style websites for differends needs and purposes. You can now start to build better websites with MultiPurpose.</p>
+				<p class="more"><a href="#">Read more</a></p>
+			</article><article class="col2">
+				<a href="#"><img src="images/temp/08.jpg" alt="" class="post-thumbnail"></a>
+				<h2><a href="#">Build better websites with MultiPurpose</a></h2>
+				<p>Most customizable responsive HTML5 and CSS3 template ever has released. To build your website you can choose from variety of headers, titles, menus, sliders, color skins, fonts, frames or patterns for boxed version. MultiPurpose can be used to create literally any type of website. The only limit is your imagination. Order MultiPurpose Today!</p>
+				<p class="more"><a href="#">Read more</a></p>
+			</article>
+		</section>
+
+		<section class="columns">
+			<div class="col23 tabbed">
+				<ul class="tabs">
+					<li><a href="#art1">Colors</a></li>
+					<li><a href="#art2">Menus</a></li>
+					<li><a href="#art3">Titles</a></li>
+				</ul>
+				<article id="art1" class="tab-content">
+					<div class="alignleft"><a href="#"><img src="images/temp/09.jpg" alt=""></a></div>
+					<h2><a href="#">Most Customizable Ever</a></h2>
+					<p>We tested it and, so far there are no themes which have have, so much customization option included. If you find the feature that could help for better customization - we will inlude it in next release, 100% free. We are constantly working to improve the theme with new features according to customers feedback, so feel free to contact us if you need some more useful features or subpages!</p>
+					<p class="more"><a href="#">Read more</a></p>
+				</article>
+				<article id="art2" class="tab-content">
+					<div class="alignleft"><a href="#"><img src="images/temp/10.jpg" alt=""></a></div>
+					<h2><a href="#">14 Modern Menus</a></h2>
+					<p>With MultiPurpose you can build websites with the lowest cost possible. MultiPurpose's goal is to help you build unique and modern websites fast, easy and with the lowest cost possible. With MultiPurpose you can create many unique style websites for differends needs and purposes, so that you can build better websites with MultiPurpose now.</p>
+					<p class="more"><a href="#">Read more</a></p>
+				</article>
+				<article id="art3" class="tab-content">
+					<div class="alignleft"><a href="#"><img src="images/temp/11.jpg" alt=""></a></div>
+					<h2><a href="#">10 Styles of Titles</a></h2>
+					<p>MultiPurpose has got tons of the outstanding features. It is probably the most complete and custmomizable template in the world. It includes for example: 14 predefinied different index pages for multipurpose usage, 12 predefinied different menus, 12 predefinied different ThemeMotive sliders, 10 styles of the headlines and so much more.</p>
+					<p class="more"><a href="#">Read more</a></p>
+				</article>
+			</div>
+			<div class="col3 why-us">
+				<h2><span>Why MultiPurpose?</span></h2>
+				<ul>
+					<li>Ultra customizable website template</li>
+					<li>Smooth responsive design</li>
+					<li>Retina ready template</li>
+					<li>Unlimited color possibility</li>
+					<li>Premium sliders included in the price</li>
+					<li>And so much much more...</li>
+				</ul>
+			</div>
+		</section>
+	</section>
+
+
+</asp:Content>

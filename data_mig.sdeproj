@@ -1,0 +1,80 @@
+<SqlDataExaminer version="16">
+  <Options>
+    <SameServer>False</SameServer>
+  </Options>
+  <Sources>
+    <Source id="1">
+      <SourceType>Db</SourceType>
+      <ServerName>corsat-youthbishopric.com</ServerName>
+      <Database>corsat_db</Database>
+      <WinAuth>False</WinAuth>
+      <Login>corsat_dblogin</Login>
+      <Password>cWSa0712</Password>
+      <SavePasswords>true</SavePasswords>
+    </Source>
+    <Source id="2">
+      <SourceType>Db</SourceType>
+      <ServerName>mena-pc</ServerName>
+      <Database>Corsatwebsite_db</Database>
+      <WinAuth>False</WinAuth>
+      <Login>sa</Login>
+      <Password>sqladmin</Password>
+      <SavePasswords>true</SavePasswords>
+    </Source>
+  </Sources>
+  <Items>
+    <Item name="dbo.COURSE_DATA" name2="dbo.Course_Data" extracted="True" type="0">
+      <Columns>
+        <Column name="DataID" key="true" />
+        <Column name="COURSEID" />
+        <Column name="DATA_TYPE_ID" />
+        <Column name="MAT_NAME" />
+        <Column name="MAT_DATE" />
+        <Column name="MAT_URL" />
+      </Columns>
+    </Item>
+    <Item name="dbo.COUNTRIES" name2="dbo.Country" extracted="True" type="0">
+      <Columns>
+        <Column name="COUNTRYID" key="true" />
+        <Column name="COUNTRY_NAME" />
+        <Column name="Ar_country_name" />
+      </Columns>
+    </Item>
+    <Item name="dbo.COURSE_DATA_DATATYPE" name2="dbo.Course_Data_DataType" extracted="True" type="0">
+      <Columns>
+        <Column name="DATA_TYPE_ID" key="true" />
+        <Column name="DATA_TYPE_NAME" />
+      </Columns>
+    </Item>
+    <Item name="dbo.PAGES_CONTENT" name2="dbo.Page" extracted="True" type="0">
+      <Columns>
+        <Column name="PAGEID" key="true" />
+        <Column name="PAGE_CONTENT" />
+        <Column name="Page_name" />
+        <Column name="Page_title" />
+      </Columns>
+    </Item>
+    <Item name="dbo.NEWS" name2="dbo.News" extracted="True" type="0">
+      <Columns>
+        <Column name="NEWSID" key="true" />
+        <Column name="NEWS_TITLE" />
+        <Column name="NEWS_CONTENT" />
+        <Column name="NEWS_DATE" />
+      </Columns>
+    </Item>
+    <Item name="dbo.CITIES" name2="dbo.City" extracted="True" type="0">
+      <Columns>
+        <Column name="CITYID" key="true" />
+        <Column name="COUNTRYID" key="true" />
+        <Column name="CITY_NAME" />
+      </Columns>
+    </Item>
+    <Item name="dbo.COURSES" name2="dbo.Course" extracted="True" type="0">
+      <Columns>
+        <Column name="COURSEID" key="true" />
+        <Column name="COURSE_NAME" />
+        <Column name="COURSE_LEVEL" />
+      </Columns>
+    </Item>
+  </Items>
+</SqlDataExaminer>
